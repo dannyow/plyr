@@ -5648,7 +5648,8 @@ var vimeo = {
       autoplay: player.autoplay,
       muted: player.muted,
       gesture: 'media',
-      playsinline: !this.config.fullscreen.iosNative
+      playsinline: !this.config.fullscreen.iosNative,
+      quality: player.config.quality
     }, config)); // Get the source URL or ID
 
     var source = player.media.getAttribute('src'); // Get from <div> if needed
