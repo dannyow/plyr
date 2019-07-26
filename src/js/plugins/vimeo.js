@@ -77,6 +77,7 @@ const vimeo = {
                     muted: player.muted,
                     gesture: 'media',
                     playsinline: !this.config.fullscreen.iosNative,
+                    quality: player.config.quality,
                 },
                 config,
             ),
